@@ -14,7 +14,7 @@ int main() {
        {
            cin>>arr[i];
        }
-       map<long long ,long long>ff;
+       map<long long ,long long>ff; 
        for(long long i:arr)
        {
             ff[i]++;
@@ -27,7 +27,7 @@ int main() {
               jwab-=(j.second*(j.second-1));
           }
       }
-      cout<<answer<<endl;
+      cout<<jwab<<endl;
     }
     return 0;
 }
